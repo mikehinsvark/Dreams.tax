@@ -172,5 +172,12 @@
   "ecosystem-footer.css": {
     "bytes": 10525,
     "sha256": "77d29d34e070237e3fe25e19fbf4ec6e16193ea3b9acb204f99c331d18e1911f"
+  },
+  "assets/graphics/rd-tax-credit-overview.png": {
+    "bytes": 3755671,
+    "sha256": "56c24fa6765af899f19677df37604f47014e4c00e1e27ca9a34fa80b35a47225",
+    "width": 1998,
+    "height": 1125,
+    "colorType": 6
   }
 }
