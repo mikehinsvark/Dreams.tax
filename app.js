@@ -1,4 +1,5 @@
 import {programs} from './programs.js';
+import {initializePageNavigation} from './page-navigation.js';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const menu=$('#menu-toggle'),nav=$('#main-nav');
 menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');nav.classList.toggle('is-open',open);});
@@ -7,6 +8,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){nav.classList.remov
 const header=$('.site-header'),productNav=$('.product-nav');
 function measureHeader(){document.documentElement.style.setProperty('--header-height',header.offsetHeight+'px');document.documentElement.style.scrollPaddingTop=(header.offsetHeight+productNav.offsetHeight+20)+'px';}
 new ResizeObserver(measureHeader).observe(header);measureHeader();
+initializePageNavigation();
 const current=$('.product-nav [aria-current="page"]'),rail=$('.product-nav-inner');
 if(current&&rail.scrollWidth>rail.clientWidth)rail.scrollLeft=Math.max(0,current.offsetLeft-rail.clientWidth/2+current.clientWidth/2);
 

@@ -1,4 +1,33 @@
 /* The Trumark layout, extended for the Dreams business sister site. */
+.interactive-overview{padding-block:60px 20px}
+.idecide-link{position:relative;isolation:isolate;overflow:hidden;display:grid;grid-template-columns:90px 1fr 52px;align-items:center;gap:32px;padding:42px;border:1px solid #397a96;border-radius:22px;background:radial-gradient(ellipse at 5% 0,#1287b145,transparent 60%),radial-gradient(ellipse at 100% 100%,#704cc728,transparent 55%),linear-gradient(115deg,#092b3b,#071827);box-shadow:0 14px 44px #0003,0 0 24px #37c9f011;transition:transform .25s,border-color .25s,box-shadow .25s}
+.idecide-link:hover,.idecide-link:focus-visible{transform:translateY(-4px);border-color:#86eeff;box-shadow:0 20px 50px #0004,0 0 42px #45d7ff2a}
+.idecide-link:focus-visible{outline:2px solid #86eeff;outline-offset:5px}
+.idecide-link .eyebrow{font-size:9px;letter-spacing:2px;margin-bottom:17px;color:#8fe8ff}
+.idecide-link h2{font:normal clamp(29px,3.1vw,43px)/1.16 var(--serif);letter-spacing:-1px}
+.idecide-link h2 em{color:#8deaff}
+.idecide-description{font-size:14px;line-height:1.8;color:#b5cbdd;margin-top:17px;max-width:620px}
+.idecide-play{width:90px;height:90px;display:grid;place-items:center;border:1px solid #70defca0;border-radius:25px;background:linear-gradient(145deg,#2babc05c,#1b669325);color:#b7f6ff;box-shadow:0 0 35px #35c9eb22,inset 0 0 20px #72e8ff15;transform:rotate(-6deg)}
+.idecide-play svg{width:43px;height:43px;transform:rotate(6deg)}
+.idecide-action{display:inline-flex;align-items:center;gap:28px;margin-top:24px;padding:12px 18px;border:1px solid #8adcef66;border-radius:8px;background:#42bbd520;color:#a8edff;font-size:12px;font-weight:600}
+.idecide-arrow{display:grid;place-items:center;width:52px;height:52px;border:1px solid #78d5f263;border-radius:50%;font-size:28px;color:#9aeaff}
+.page-scroll-nav[hidden]{display:none}
+.page-scroll-nav{position:fixed;z-index:46;right:6px;top:calc(50% + 65px);transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;width:48px;padding:5px;border:1px solid #1b5261;border-radius:30px;background:#03141be8;backdrop-filter:blur(14px);box-shadow:0 12px 32px #0005}
+.page-scroll-nav>button{display:grid;place-items:center;flex-shrink:0;width:36px;height:36px;padding:0;border:1px solid #285461;border-radius:50%;background:#051923;color:#21dbc6;cursor:pointer;transition:color .2s,box-shadow .2s,border-color .2s}
+.page-scroll-nav>button svg{width:22px;height:22px}
+.page-scroll-nav>button:hover:not(:disabled){color:#acfff1;border-color:#32e3cb;box-shadow:0 0 20px #20dfc52f}
+.page-scroll-nav>button:disabled{opacity:.3;cursor:default}
+.page-scroll-dots{display:flex;flex-direction:column;align-items:center;padding-block:7px}
+.page-scroll-dot{position:relative;display:grid;place-items:center;width:34px;height:24px;border-radius:18px}
+.page-scroll-dot:before{content:"";width:7px;height:7px;border-radius:50%;background:#315157;transition:background .2s,box-shadow .2s,transform .2s}
+.page-scroll-dot[aria-current="location"]:before{background:#20dbc1;transform:scale(1.5);box-shadow:0 0 15px #20dbc167}
+.page-scroll-dot:hover:before{background:#86f5e5}
+.page-scroll-nav :focus-visible{outline:2px solid #8df8e8;outline-offset:2px}
+.page-scroll-label{position:absolute;right:calc(100% + 12px);top:50%;transform:translateY(-50%);width:max-content;max-width:250px;padding:10px 14px;border:1px solid #2b5c68;border-radius:9px;background:#061923f7;color:#c9eee8;font:500 11px/1.5 var(--sans);text-transform:none;letter-spacing:.2px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s,visibility .2s;box-shadow:0 6px 24px #0005}
+.page-scroll-dot:hover .page-scroll-label,.page-scroll-dot:focus-visible .page-scroll-label{opacity:1;visibility:visible}
+@media(max-width:1100px),(max-height:650px){.page-scroll-nav{top:auto;bottom:calc(16px + env(safe-area-inset-bottom,0px));right:14px;transform:none;flex-direction:row;gap:7px;width:auto;padding:5px}.page-scroll-nav>button{width:42px;height:42px}.page-scroll-dots{display:none}}
+@media(max-width:650px){.interactive-overview{padding-block:40px 5px}.idecide-link{grid-template-columns:1fr;gap:24px;padding:27px}.idecide-play{width:62px;height:62px;border-radius:18px}.idecide-play svg{width:34px;height:34px}.idecide-link h2{font-size:30px;line-height:1.2}.idecide-link .eyebrow{font-size:8px;letter-spacing:1.6px}.idecide-description{font-size:13px}.idecide-action{font-size:11px;gap:16px;padding:12px}.idecide-arrow{position:absolute;right:27px;top:30px;width:44px;height:44px;font-size:24px}}
+@media(prefers-reduced-motion:reduce){.idecide-link:hover{transform:none}}
 .site-header{min-height:106px;padding-block:14px;gap:22px}
 .brand-trio{display:flex;align-items:center;gap:18px;flex:0 1 610px;min-width:0}
 .brand-trio a{flex:1;min-width:0;transition:filter .25s,transform .25s}
