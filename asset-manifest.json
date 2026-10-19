@@ -1,0 +1,176 @@
+{
+  "assets/logos/dreams-business.png": {
+    "bytes": 1409937,
+    "sha256": "1082fbbd2f3ea60f3cb2e8494591d9b06f5d7f14c60cda6140894b17cd6b41f2",
+    "width": 2172,
+    "height": 724,
+    "colorType": 6
+  },
+  "assets/logos/tax-prep.png": {
+    "bytes": 1026953,
+    "sha256": "c8f4ff0a0cb6375eb2471af2ee03e91921aebe8f1ab7fb700d6fef69a4610355",
+    "width": 2172,
+    "height": 724,
+    "colorType": 6
+  },
+  "assets/logos/dreams-technology.png": {
+    "bytes": 1249764,
+    "sha256": "945c1752abae25249b56f1240472d160f39f6a4843df6ca522f1ffede580dca7",
+    "width": 2172,
+    "height": 724,
+    "colorType": 6
+  },
+  "assets/cards/dreams-business.png": {
+    "bytes": 2487273,
+    "sha256": "3051c1209aee8bfe6d1b9abe2c2bf30bd61e609d75acd975cfd716e1f56bb1d9",
+    "width": 1122,
+    "height": 1402,
+    "colorType": 2
+  },
+  "assets/cards/tax-prep.png": {
+    "bytes": 2423257,
+    "sha256": "512228d457427e82736e29997effad4746bb14b3643c7f15e551193de817e992",
+    "width": 1122,
+    "height": 1402,
+    "colorType": 2
+  },
+  "assets/cards/technology.png": {
+    "bytes": 2531929,
+    "sha256": "e4eef3b3d720d6c34aa4b3f6ffc591a7a68a277fc4a3415ed44defba57903411",
+    "width": 1122,
+    "height": 1402,
+    "colorType": 2
+  },
+  "assets/cards/bank-breezy.png": {
+    "bytes": 2286278,
+    "sha256": "b7db5518ebaa16dd710ae73f905b59040478215cf907cfc5fcd15d83ccd48159",
+    "width": 1122,
+    "height": 1402,
+    "colorType": 2
+  },
+  "assets/cards/tariff-recovery.png": {
+    "bytes": 2496036,
+    "sha256": "b631dd2839513c8dfbf4913f57f4beda779dd29906489b1f3cce0c2ffeebed47",
+    "width": 1122,
+    "height": 1402,
+    "colorType": 2
+  },
+  "assets/graphics/dreams-partners.png": {
+    "bytes": 3436589,
+    "sha256": "3f7d293b9b7d1b0ba00a5f96ae7921703ae697858a83dfc98059d92cd1270b78",
+    "width": 1998,
+    "height": 1125,
+    "colorType": 6
+  },
+  "assets/graphics/dreams-partners-tariff.png": {
+    "bytes": 2078270,
+    "sha256": "9f76d5cd5e6687a45a628715ef4787684ee14592d1b43fd00dde7f66c24dc804",
+    "width": 1600,
+    "height": 900,
+    "colorType": 2
+  },
+  "assets/graphics/small-business-impact.png": {
+    "bytes": 3000746,
+    "sha256": "3e9a8ebe09ef4f68d33992b0a2478685fdd5a29d1933caa393d3902cd27a9700",
+    "width": 1600,
+    "height": 900,
+    "colorType": 2
+  },
+  "assets/graphics/dreams-score.png": {
+    "bytes": 2065251,
+    "sha256": "c02a1dc9c3adaf3f0fff6793413a7f6f777ca1dae689cae2c2ab92dbac43518b",
+    "width": 1600,
+    "height": 900,
+    "colorType": 2
+  },
+  "assets/graphics/dreams-advantage.png": {
+    "bytes": 3390989,
+    "sha256": "d0fb171fbde32c564bde9a903f3925262bc825b80755ec3ae3b9bf90b53719f7",
+    "width": 1600,
+    "height": 900,
+    "colorType": 2
+  },
+  "assets/graphics/fica-tip-credit.png": {
+    "bytes": 3807185,
+    "sha256": "17ec15ef8b071e988f4840e763d350db1f9dc37bedd70feb06bed4c4e2606573",
+    "width": 1999,
+    "height": 1125,
+    "colorType": 6
+  },
+  "assets/graphics/technology-sandler.png": {
+    "bytes": 2327837,
+    "sha256": "5c5bbe4af0e8122c0bc52b1397e323b719f0001d7470663d0bfd736d4c21abc4",
+    "width": 1600,
+    "height": 900,
+    "colorType": 2
+  },
+  "assets/graphics/ai-optimization.png": {
+    "bytes": 3674940,
+    "sha256": "ba380f4127d7e2e9ac0ac238b48689fc073557d8c109dd0434aa7eb5b8f23e2f",
+    "width": 1999,
+    "height": 1125,
+    "colorType": 6
+  },
+  "assets/graphics/bank-breezy.png": {
+    "bytes": 3990170,
+    "sha256": "d6efced96dd11cbb270758be5a4a7255666f169115bebcf13c2afa65071358bb",
+    "width": 1998,
+    "height": 1125,
+    "colorType": 6
+  },
+  "assets/graphics/tariff-platform.png": {
+    "bytes": 3899912,
+    "sha256": "382397b89bdc2111af97ec9762816263672fb066791c2d21357343a8e687d3af",
+    "width": 1998,
+    "height": 1125,
+    "colorType": 6
+  },
+  "resources/rd-tax-credits-2026.pptx": {
+    "bytes": 28357182,
+    "sha256": "3df18ed9d26490dccf173b6024ed21a64515cb0ea1a395cfa84172dd8d1f359e"
+  },
+  "resources/dreams-score-for-business.pdf": {
+    "bytes": 49104805,
+    "sha256": "3cbd29d3f9ce485def769996d7c9f7132b0234f683616f3c359d5f94bdd5626a"
+  },
+  "resources/bank-breezy-game-plan.pdf": {
+    "bytes": 1602783,
+    "sha256": "8fd6251f95d7ab8ef84d060bb04499060086183dae15d3915b59d30ce941584c"
+  },
+  "resources/dac-broker-opportunity.pdf": {
+    "bytes": 405045,
+    "sha256": "0c4ec10c3a1965f3996b3b3871c7c2c64887fd9f4da004827e134a48ae71e878"
+  },
+  "resources/dac-pay-plan-chart.pdf": {
+    "bytes": 15272057,
+    "sha256": "55ac0c0fe6ac410f15e980b000b4aeaf741189f64b00399f45d98f37f4da88aa"
+  },
+  "resources/tariff-prospecting-field-guide.docx": {
+    "bytes": 48739,
+    "sha256": "74cc83a847f48a08e4963ec63cf5df45bb009573cbbbe424483f6f077eb784a2"
+  },
+  "resources/tra-recovery-platform.docx": {
+    "bytes": 38038,
+    "sha256": "f8da8dfb2d0ed0041eea1ebf08b4f3db932544a5c7fe28d8dbb88faed4f41bf3"
+  },
+  "media/sandler-introduction.mp4": {
+    "bytes": 17567457,
+    "sha256": "d4c6520896bc7f6778d2e5a6d884ede8575af9bb7f5d9da91dc0641e8824b245"
+  },
+  "assets/navy-wave.svg": {
+    "bytes": 2450,
+    "sha256": "baade9351bad8cdea9f3a64ac01111631e501c53469a28ba8a9f967d87f95706"
+  },
+  "styles.css": {
+    "bytes": 36868,
+    "sha256": "d7f312eb45240737957836ab982b11f1f7f07dc6f6cbd0335cf84415e71b2893"
+  },
+  "products.css": {
+    "bytes": 24595,
+    "sha256": "517e9af9f7d7073c8eaa17c6307abe4b858549f6fa7a23346630a9a0fbbe9641"
+  },
+  "ecosystem-footer.css": {
+    "bytes": 10525,
+    "sha256": "77d29d34e070237e3fe25e19fbf4ec6e16193ea3b9acb204f99c331d18e1911f"
+  }
+}

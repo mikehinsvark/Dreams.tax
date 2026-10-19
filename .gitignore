@@ -1,0 +1,6 @@
+qa/
+source-notes/
+prepare-assets.mjs
+*.zip
+node_modules/
+.DS_Store
