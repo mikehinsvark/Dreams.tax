@@ -179,5 +179,12 @@
     "width": 1998,
     "height": 1125,
     "colorType": 6
+  },
+  "assets/graphics/technology-video-cover.png": {
+    "bytes": 2380853,
+    "sha256": "5a92ffd48b2dd53eddc115621fa54ae64f7d1c1c51f34221cf8c3d2568acc8fa",
+    "width": 1672,
+    "height": 941,
+    "colorType": 2
   }
 }
